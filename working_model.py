@@ -30,11 +30,11 @@ def download_images_ddg(img_category, img_types, num_images):
 img_category = 'cat'
 img_types = ['bengal','siamese','ragdoll', 'maine coon', 'persian', 'british shorthair', 'sphynx', 'abyssinian', 'scottish fold',
 'birman', 'russian blue', 'calico', 'norwegian forest cat', 'manx', 'havana brown', 'highlander', 'cornish rex', 'egyptian mau', 
-'ragamuffin', 'oriental shorthair', 'american shorthair', 'moggie']
+'ragamuffin', 'oriental shorthair', 'american shorthair', 'moggie', 'snow bengal']
 path = Path(img_category)
 
 # Call function to download images
-download_images_ddg(img_category, img_types, num_images=100)
+download_images_ddg(img_category, img_types, num_images=300)
 
 # Check for failed images
 fns = get_image_files(path)
