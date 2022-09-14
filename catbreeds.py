@@ -31,7 +31,7 @@ class Predict:
             if probs[pred_idx]>0.5:
                 st.write(f'Prediction: {pred}; Probability: {probs[pred_idx]:.04f}')
             else:
-                st.write(f'I don't think that's a cat.')
+                st.write(f'Is that a cat?')
         else: 
             st.write(f'Click the button to classify') 
 
